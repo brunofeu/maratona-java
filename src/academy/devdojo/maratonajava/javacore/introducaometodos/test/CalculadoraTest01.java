@@ -11,5 +11,7 @@ public class CalculadoraTest01 {
 
         double resultado = calculadora.divideDoisNumeros(20, 0);
         System.out.println(resultado);
+
+        calculadora.somaVarArgs(1,2,3,4,5,6);
     }
 }
