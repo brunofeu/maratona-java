@@ -4,6 +4,10 @@ public class Pessoa {
     private String nome;
     private String cpf;
 
+    public Pessoa(String nome){
+        this.nome = nome;
+    }
+
     public void imprime() {
         System.out.println(this.nome);
         System.out.println(this.cpf);
